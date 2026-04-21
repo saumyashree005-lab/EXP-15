@@ -7,30 +7,6 @@ a) Creating Dataset: Imports required libraries:
 pandas → data handling numpy → numerical operations.
 b) Min-Max Normalization: Rescales the data to a fixed range, usually 0 to 1, by subtracting the minimum and dividing by the range.
 
-# Formulas used:
-* Min-Max Normalization → x_new = (x_old - x_min) / (x_max - x_min)
-* Z-Score Normalization → x_new = (x - μ) / σ
-* Decimal Scaling → x_new = x / 10^j
-* Feature Scaling → x_new = x / x_max
-* It is important because it prevents features with large values from dominating and improves machine learning model performance.
-* Min-Max normalization scales values between 0 and 1
-* Formula:
-x_new = (x_old - x_min) / (x_max - x_min)
-Simple feature scaling divides each value by the maximum value of the column.
-* Formula:
-x_new = x_old / x_max
-* Z-score normalization standardizes data to mean 0 and standard deviation 1.
-* Formula:
-x_new = (x_old - μ) / σ
-* Decimal scaling reduces values by dividing by powers of 10.
-Formula:
-x_new = x_old / 10^j
-In the formulas:
-x_old = original value
-x_new = normalized value
-x_min, x_max = minimum and maximum values
-μ = mean σ = standard deviation
-j = number of digits of maximum value
 
 
 # Part B: Turning categorical variables into quantitative variables in Python
