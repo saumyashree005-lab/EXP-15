@@ -66,14 +66,6 @@ Required libraries include Pandas for data handling, NumPy for numerical operati
 
 * groupby() → group data for aggregation and analysis
 
-* x_new = (x_old - x_min) / (x_max - x_min) → Min-Max Normalization (scales data between 0 and 1)
-
-* x_new = (x - μ) / σ → Z-Score Normalization (standardizes data with mean 0 and std 1)
-
-* x_new = x / 10^j → Decimal Scaling (scales values using powers of 10)
-
-* x_new = x / x_max → Feature Scaling (scales relative to max value)
-
 Overall, normalization ensures all numerical features are on the same scale, and encoding ensures categorical data becomes usable, making both essential steps in data preprocessing.
 
 # Conclusion :
